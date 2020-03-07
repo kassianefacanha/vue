@@ -11,7 +11,11 @@
     <div class="container">
                <h2>Minha lista de livros</h2>
                <div class="input-group">
-                 <input placeholder="adicione um livro" type="text" class="js-novo-livro form-control">
+                
+              <input placeholder="Adicione um livro" type="text" class="js-novo-livro form-control"> <br>
+              <input placeholder="Nome do autor" type="text" class="js-novo-autor form-control"> <br>
+              <button @click="addItem" class="js-add btn btn-primary btn-block" type="button">Adicionar!</button>
+
                <span class="input-group-btn">
                      <button  @click="addItem" class="js-add btn btn-default" type="button">Adicionar!</button>
                    </span>
